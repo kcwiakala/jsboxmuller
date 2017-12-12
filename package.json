@@ -1,0 +1,22 @@
+{
+  "name": "jsboxmuller",
+  "version": "1.0.0",
+  "description": "Box Muller algorithm implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "normal",
+    "distribution",
+    "box",
+    "muller"
+  ],
+  "author": "kcwiakala",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "lodash": "^4.17.4",
+    "mocha": "^4.0.1"
+  }
+}
