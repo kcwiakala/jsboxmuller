@@ -18,13 +18,15 @@ module.exports = (function() {
     }
   }
 
-  return function() {
+  return function(mean, variance) {
+    mean = mean || 0.0;
+    variance = variance || 1.0;
     phase = 1 - phase;
     if(phase == 0) {
-      return z1;
+      return z1 * variance + mean;
     } else {
       generate();
-      return z0;
+      return z0 * variance + mean;
     }
   }
 })();
