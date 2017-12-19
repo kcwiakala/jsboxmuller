@@ -12,6 +12,10 @@
     "box",
     "muller"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kcwiakala/jsboxmuller.git"
+  },
   "author": "kcwiakala",
   "license": "ISC",
   "devDependencies": {
